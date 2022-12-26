@@ -2,8 +2,8 @@ name: GetMoarFediverse
 
 on:
   # uncomment the following 2 lines so that it runs automatically every 15 minutes
-  # schedule:
-  #   - cron: '*/15 * * * *'
+  schedule:
+    - cron: '*/15 * * * *'
   workflow_dispatch:
 
 jobs:
